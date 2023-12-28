@@ -1,20 +1,27 @@
 body{
     max-width: 100%;
     background-color: #2E8BC0;
-    
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 header{
     text-align: justify;
 }
 main{
     margin: 10px;
-    border: 1px solid black;
     padding: 10px;
 }
-#kepek{
+#kepek,#video{
     text-align: center;
 }
 #kepek img{
     margin: 10px;
     width: 200px;
+}
+#utasitas p{
+    margin: auto;
+}
+#video{
+    margin-bottom: 20px;
 }
